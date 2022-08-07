@@ -1,0 +1,10 @@
+provider."aws" {
+    region = "us-west-1"
+}
+
+resource "aws_instance" "demo_ec2"
+    ami = "jesus is lord"
+
+    tag {
+        Name = "sample"
+    }
